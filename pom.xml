@@ -7,12 +7,14 @@
 	<version>1.0</version>
 	<name>JavaWebApp</name>
 	<url>http://maven.apache.org</url>
-<!-- 	<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<properties>
+<!--     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
     <sonar.login>admin</sonar.login>
-    <sonar.password>admin</sonar.password>
-  </properties> -->
+    <sonar.password>admin</sonar.password> -->
+		<sonar.sources>src/main</sonar.sources>
+                <sonar.tests>src/test</sonar.tests>
+  </properties>
 	
 	<dependencies>
 		<dependency>
